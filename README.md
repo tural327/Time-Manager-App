@@ -1,2 +1,2 @@
 # my_first_desk_app
-time manager
+Just simple time manager
