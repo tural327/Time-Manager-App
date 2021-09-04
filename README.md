@@ -29,6 +29,8 @@ After resting system goint to alert you **"Back to work!"** and you will see **"
 
 If program started to work **Start** and Sliders will be vanished if you wondering arrange your timne again just push **Set again** for arrange it again
 
+## Just quick tour of app
+![](https://github.com/tural327/Time-Manager-App/blob/main/some_others/overview.gif)
 
 
 
