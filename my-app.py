@@ -230,7 +230,7 @@ class MyWindow(QMainWindow):
 
         current_time = datetime.datetime.now()
 
-        work = self.mySlider_work.value()
+        work = (self.mySlider_work.value())*60
         sec_value = int(current_time.second)
         min_value = int(current_time.minute)
         hour_value = int(current_time.hour)
@@ -241,7 +241,7 @@ class MyWindow(QMainWindow):
         self.value_work_m[0] = convert(hour_value, min_value, sec_value, work)[1]
         self.value_work_h[0] = convert(hour_value, min_value, sec_value, work)[0]
 
-        rest = self.mySlider_rest.value() + self.mySlider_work.value()
+        rest = (self.mySlider_rest.value() + self.mySlider_work.value())*60
         sec_value = int(current_time.second)
         min_value = int(current_time.minute)
         hour_value = int(current_time.hour)
